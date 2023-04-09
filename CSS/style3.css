@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+/* Navigation Bar: Logo and Image */
+
+#logo {
+    margin: 10px 15px;
+}
+
+#logo img {
+    height: 60px;
+    margin: 3px 5px
+}
+
+/* Navigation Bar: List styling */
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: wheat;
+}
+
+/* Home Section */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url('../bg.jpg') no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#home .box1 img {
+    height: 300px;
+    margin: auto;
+    display: block;
+}
+
+#home h1 {
+    color: orange;
+    text-align: center;
+}
+
+#home p {
+    color: white;
+    text-align: center;
+}
+
+/* About Section */
+
+#about-container {
+    margin-top: 340px;
+}
+
+
+#about {
+    margin: 34px;
+    display: flex;
+
+}
+
+#about .box {
+    border: 6px solid darkorange;
+    padding: 30px;
+    margin: 5px 8px;
+    border-radius: 30px;
+    background-color: rgb(37, 37, 59);
+    color: white;
+}
+
+
+#about .box img {
+    height: 400px;
+    margin: auto;
+    display: block;
+}
+
+/* Pyaar Section */
+
+#pyaar-section {
+    height: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+#pyaar-section::before {
+    content: "";
+    position: absolute;
+    background: url('../img/20.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#pyaar-section h1 {
+    color: white;
+}
+
+#pyaar {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pyaar p {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.pyaar-item {
+    padding: 34px;
+}
+
+#pyaar img {
+    height: 300px;
+}
+
+/* Thank Me */
+
+#thanks {
+    margin-top: 30px;
+}
+
+#thanks::before {
+    content: "";
+    position: absolute;
+    background: url('../img/21.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 340px;
+    z-index: -1;
+}
+
+#thanks h1 {
+    color: white;
+}
+
+#thanks ul {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#thanks-list {
+    align-items: center;
+    justify-content: center;
+    line-height: 2rem;
+    color: white;
+    font-size: 1.8rem;
+    margin: 20px;
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+/* Utility Classes */
+.h-primary {
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+.h-secondary {
+    font-size: 2.0rem;
+    padding: 12px;
+}
+
+.center {
+    text-align: center;
+}

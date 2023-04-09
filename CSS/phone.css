@@ -1,0 +1,71 @@
+/* Navigation Bar */
+#navbar{
+    flex-direction: column;
+}
+
+/* Home Section */
+#home{
+    padding: 3px 60px;
+    height: 550px;
+}
+
+#home .box1 img{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    width: 300px;
+    height: 200px;
+}
+
+#home::before{
+    height: 970px;
+}
+
+/* About Section */
+
+#about-container{
+    margin-top: 285px;
+}
+
+#about{
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 25px;
+}
+
+
+#about .box img{
+    height: 265px;
+    width: 200px;
+}
+
+/* Pyaar Section */
+
+#pyaar-section{
+    height: auto;
+}
+
+#pyaar{
+    flex-wrap: wrap;
+}
+
+#pyaar p{
+    font-size: 1.2rem;
+}
+
+#pyaar img{
+    height: 250px;
+    width: 190px;
+}
+
+/* Thank you section */
+
+#thanks-list ul li{
+    font-size: 1.0rem;
+}
+
+
+/* Utility Classes */
+
+.h-primary{
+    font-size: 2.0rem;
+}
